@@ -426,6 +426,30 @@ there.
   background: #ffffff
 }
 
+body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #fafafa;
+  font-size: 1.1rem;
+  line-height: 1.3;
+}
+* {
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+.page {
+  position: relative;
+  width: 210mm;
+  min-height: 300mm;
+  padding: 0mm;
+  margin: 10mm auto;
+  border-radius: 5px;
+  background: white;
+  box-shadow: 0 0 10px lightgrey;
+}
+
 
 .modal-open{overflow:hidden}
 .modal-open 
